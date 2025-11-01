@@ -1,18 +1,18 @@
 import { Link } from "react-router-dom";
 import { Search, User, ShoppingCart, Heart } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import logo from "@/assets/logo.jpg";
 
 const Header = () => {
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 items-center justify-between">
         <Link to="/" className="flex items-center gap-2">
-          <div className="h-10 w-10 rounded-full bg-primary flex items-center justify-center">
-            <svg className="h-6 w-6 text-primary-foreground" viewBox="0 0 24 24" fill="none">
-              <circle cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="2"/>
-              <path d="M12 2 L12 22 M2 12 L22 12 M6 6 L18 18 M6 18 L18 6" stroke="currentColor" strokeWidth="2"/>
-            </svg>
-          </div>
+          <img 
+            src={logo} 
+            alt="Breeze Fruit Logo" 
+            className="h-12 w-12 object-contain"
+          />
           <span className="font-heading text-xl font-bold">Breeze Fruit</span>
         </Link>
         
