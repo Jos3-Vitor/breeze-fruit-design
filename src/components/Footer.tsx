@@ -1,4 +1,5 @@
 import { Instagram, MessageCircle } from "lucide-react";
+import logo from "@/assets/logo.jpg";
 
 const Footer = () => {
   return (
@@ -8,12 +9,11 @@ const Footer = () => {
           {/* Brand */}
           <div className="flex flex-col gap-3">
             <div className="flex items-center gap-2">
-              <div className="h-10 w-10 rounded-full bg-primary flex items-center justify-center">
-                <svg className="h-6 w-6 text-primary-foreground" viewBox="0 0 24 24" fill="none">
-                  <circle cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="2"/>
-                  <path d="M12 2 L12 22 M2 12 L22 12 M6 6 L18 18 M6 18 L18 6" stroke="currentColor" strokeWidth="2"/>
-                </svg>
-              </div>
+              <img 
+                src={logo} 
+                alt="Breeze Fruit Logo" 
+                className="h-10 w-10 object-contain"
+              />
               <p className="font-heading font-bold">Breeze Fruit</p>
             </div>
             <p className="text-sm text-muted-foreground">Polpas 100% fruta, 100% frescor</p>
