@@ -66,7 +66,7 @@ const OrderDetail = () => {
                       </div>
                       <div className="text-right">
                         <p className="font-bold text-primary">
-                          R$ {item.price.toFixed(2).replace('.', ',')}
+                          € {item.price.toFixed(2).replace('.', ',')}
                         </p>
                       </div>
                     </div>
@@ -98,19 +98,19 @@ const OrderDetail = () => {
                   <div className="flex justify-between text-sm">
                     <span className="text-muted-foreground">Subtotal</span>
                     <span className="font-semibold">
-                      R$ {order.subtotal.toFixed(2).replace('.', ',')}
+                      € {order.subtotal.toFixed(2).replace('.', ',')}
                     </span>
                   </div>
                   <div className="flex justify-between text-sm">
                     <span className="text-muted-foreground">Frete</span>
                     <span className="font-semibold">
-                      R$ {order.shipping.toFixed(2).replace('.', ',')}
+                      € {order.shipping.toFixed(2).replace('.', ',')}
                     </span>
                   </div>
                   <div className="flex justify-between text-lg pt-3 border-t">
                     <span className="font-bold">Total</span>
                     <span className="font-bold text-primary">
-                      R$ {order.total.toFixed(2).replace('.', ',')}
+                      € {order.total.toFixed(2).replace('.', ',')}
                     </span>
                   </div>
                 </div>

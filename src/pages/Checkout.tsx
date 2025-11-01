@@ -144,7 +144,7 @@ const Checkout = () => {
                           <p className="font-semibold text-sm">{item.name}</p>
                           <p className="text-xs text-muted-foreground">{item.weight} × {item.quantity}</p>
                           <p className="text-sm font-bold text-primary">
-                            R$ {(item.price * item.quantity).toFixed(2).replace('.', ',')}
+                            € {(item.price * item.quantity).toFixed(2).replace('.', ',')}
                           </p>
                         </div>
                       </div>
@@ -154,7 +154,7 @@ const Checkout = () => {
                   <div className="space-y-3 pt-4 border-t">
                     <div className="flex justify-between text-sm">
                       <span className="text-muted-foreground">Subtotal</span>
-                      <span className="font-semibold">R$ {subtotal.toFixed(2).replace('.', ',')}</span>
+                      <span className="font-semibold">€ {subtotal.toFixed(2).replace('.', ',')}</span>
                     </div>
                     <div className="flex justify-between text-sm">
                       <span className="text-muted-foreground">Frete</span>
@@ -165,7 +165,7 @@ const Checkout = () => {
                   <div className="flex justify-between text-lg pt-4 border-t">
                     <span className="font-bold">Total</span>
                     <span className="font-bold text-primary text-2xl">
-                      R$ {total.toFixed(2).replace('.', ',')}
+                      € {total.toFixed(2).replace('.', ',')}
                     </span>
                   </div>
                   

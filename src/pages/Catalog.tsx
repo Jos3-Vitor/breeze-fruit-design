@@ -12,14 +12,14 @@ const Catalog = () => {
   const [sortBy, setSortBy] = useState("relevance");
   
   const products = [
-    { id: "1", name: "Polpa de Manga", image: polpaManga, weight: "300g", price: "R$ 12,99" },
-    { id: "2", name: "Polpa de Morango", image: polpaMorango, weight: "300g", price: "R$ 14,99" },
-    { id: "3", name: "Polpa de Maracujá", image: polpaMaracuja, weight: "300g", price: "R$ 11,99" },
-    { id: "4", name: "Polpa de Mirtilo", image: polpaMirtilo, weight: "300g", price: "R$ 16,99" },
-    { id: "5", name: "Polpa de Manga", image: polpaManga, weight: "500g", price: "R$ 19,99" },
-    { id: "6", name: "Polpa de Morango", image: polpaMorango, weight: "500g", price: "R$ 22,99" },
-    { id: "7", name: "Polpa de Maracujá", image: polpaMaracuja, weight: "500g", price: "R$ 18,99" },
-    { id: "8", name: "Polpa de Mirtilo", image: polpaMirtilo, weight: "500g", price: "R$ 26,99" },
+    { id: "1", name: "Polpa de Manga", image: polpaManga, weight: "300g", price: "€ 12,99" },
+    { id: "2", name: "Polpa de Morango", image: polpaMorango, weight: "300g", price: "€ 14,99" },
+    { id: "3", name: "Polpa de Maracujá", image: polpaMaracuja, weight: "300g", price: "€ 11,99" },
+    { id: "4", name: "Polpa de Mirtilo", image: polpaMirtilo, weight: "300g", price: "€ 16,99" },
+    { id: "5", name: "Polpa de Manga", image: polpaManga, weight: "500g", price: "€ 19,99" },
+    { id: "6", name: "Polpa de Morango", image: polpaMorango, weight: "500g", price: "€ 22,99" },
+    { id: "7", name: "Polpa de Maracujá", image: polpaMaracuja, weight: "500g", price: "€ 18,99" },
+    { id: "8", name: "Polpa de Mirtilo", image: polpaMirtilo, weight: "500g", price: "€ 26,99" },
   ];
 
   return (

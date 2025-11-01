@@ -109,7 +109,7 @@ const Cart = () => {
                     </Link>
                     <p className="text-sm text-muted-foreground">{item.weight}</p>
                     <p className="text-lg font-bold text-primary mt-2">
-                      R$ {item.price.toFixed(2).replace('.', ',')}
+                      € {item.price.toFixed(2).replace('.', ',')}
                     </p>
                   </div>
                   
@@ -155,7 +155,7 @@ const Cart = () => {
               <div className="space-y-3 pb-4 border-b">
                 <div className="flex justify-between">
                   <span className="text-muted-foreground">Subtotal</span>
-                  <span className="font-semibold">R$ {subtotal.toFixed(2).replace('.', ',')}</span>
+                  <span className="font-semibold">€ {subtotal.toFixed(2).replace('.', ',')}</span>
                 </div>
                 <div className="flex justify-between">
                   <span className="text-muted-foreground">Frete</span>
@@ -165,7 +165,7 @@ const Cart = () => {
               
               <div className="flex justify-between text-lg">
                 <span className="font-semibold">Total</span>
-                <span className="font-bold text-primary">R$ {total.toFixed(2).replace('.', ',')}</span>
+                <span className="font-bold text-primary">€ {total.toFixed(2).replace('.', ',')}</span>
               </div>
               
               <Link to="/checkout">

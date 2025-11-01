@@ -19,19 +19,19 @@ const Product = () => {
   const [isFavorite, setIsFavorite] = useState(false);
   
   const products = {
-    "1": { name: "Polpa de Manga", image: polpaManga, price: "R$ 12,99", price500: "R$ 19,99" },
-    "2": { name: "Polpa de Morango", image: polpaMorango, price: "R$ 14,99", price500: "R$ 22,99" },
-    "3": { name: "Polpa de Maracujá", image: polpaMaracuja, price: "R$ 11,99", price500: "R$ 18,99" },
-    "4": { name: "Polpa de Mirtilo", image: polpaMirtilo, price: "R$ 16,99", price500: "R$ 26,99" },
+    "1": { name: "Polpa de Manga", image: polpaManga, price: "€ 12,99", price500: "€ 19,99" },
+    "2": { name: "Polpa de Morango", image: polpaMorango, price: "€ 14,99", price500: "€ 22,99" },
+    "3": { name: "Polpa de Maracujá", image: polpaMaracuja, price: "€ 11,99", price500: "€ 18,99" },
+    "4": { name: "Polpa de Mirtilo", image: polpaMirtilo, price: "€ 16,99", price500: "€ 26,99" },
   };
   
   const product = products[id as keyof typeof products];
   const currentPrice = weight === "500g" ? product?.price500 : product?.price;
   
   const relatedProducts = [
-    { id: "1", name: "Polpa de Manga", image: polpaManga, weight: "300g", price: "R$ 12,99" },
-    { id: "3", name: "Polpa de Maracujá", image: polpaMaracuja, weight: "300g", price: "R$ 11,99" },
-    { id: "4", name: "Polpa de Mirtilo", image: polpaMirtilo, weight: "300g", price: "R$ 16,99" },
+    { id: "1", name: "Polpa de Manga", image: polpaManga, weight: "300g", price: "€ 12,99" },
+    { id: "3", name: "Polpa de Maracujá", image: polpaMaracuja, weight: "300g", price: "€ 11,99" },
+    { id: "4", name: "Polpa de Mirtilo", image: polpaMirtilo, weight: "300g", price: "€ 16,99" },
   ];
 
   const handleAddToCart = () => {

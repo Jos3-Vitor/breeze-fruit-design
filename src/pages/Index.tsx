@@ -12,10 +12,10 @@ import { Link } from "react-router-dom";
 
 const Index = () => {
   const products = [
-    { id: "1", name: "Polpa de Manga", image: polpaManga, weight: "300g", price: "R$ 12,99" },
-    { id: "2", name: "Polpa de Morango", image: polpaMorango, weight: "300g", price: "R$ 14,99" },
-    { id: "3", name: "Polpa de Maracujá", image: polpaMaracuja, weight: "300g", price: "R$ 11,99" },
-    { id: "4", name: "Polpa de Mirtilo", image: polpaMirtilo, weight: "300g", price: "R$ 16,99" },
+    { id: "1", name: "Polpa de Manga", image: polpaManga, weight: "300g", price: "€ 12,99" },
+    { id: "2", name: "Polpa de Morango", image: polpaMorango, weight: "300g", price: "€ 14,99" },
+    { id: "3", name: "Polpa de Maracujá", image: polpaMaracuja, weight: "300g", price: "€ 11,99" },
+    { id: "4", name: "Polpa de Mirtilo", image: polpaMirtilo, weight: "300g", price: "€ 16,99" },
   ];
 
   return (

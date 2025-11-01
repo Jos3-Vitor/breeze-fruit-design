@@ -12,7 +12,7 @@ const Orders = () => {
       date: "15 Out 2025",
       status: "delivered",
       statusText: "Entregue",
-      total: "R$ 27,00",
+      total: "€ 27,00",
       items: 2,
     },
     {
@@ -20,7 +20,7 @@ const Orders = () => {
       date: "10 Out 2025",
       status: "shipped",
       statusText: "Enviado",
-      total: "R$ 42,97",
+      total: "€ 42,97",
       items: 3,
     },
     {
@@ -28,7 +28,7 @@ const Orders = () => {
       date: "05 Out 2025",
       status: "processing",
       statusText: "Em preparo",
-      total: "R$ 14,99",
+      total: "€ 14,99",
       items: 1,
     },
   ];

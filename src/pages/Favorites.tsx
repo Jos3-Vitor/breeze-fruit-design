@@ -12,9 +12,9 @@ import { toast } from "@/hooks/use-toast";
 
 const Favorites = () => {
   const [favorites, setFavorites] = useState([
-    { id: "2", name: "Polpa de Morango", image: polpaMorango, price: "R$ 14,99", weight: "300g" },
-    { id: "1", name: "Polpa de Manga", image: polpaManga, price: "R$ 12,99", weight: "300g" },
-    { id: "3", name: "Polpa de Maracujá", image: polpaMaracuja, price: "R$ 11,99", weight: "300g" },
+    { id: "2", name: "Polpa de Morango", image: polpaMorango, price: "€ 14,99", weight: "300g" },
+    { id: "1", name: "Polpa de Manga", image: polpaManga, price: "€ 12,99", weight: "300g" },
+    { id: "3", name: "Polpa de Maracujá", image: polpaMaracuja, price: "€ 11,99", weight: "300g" },
   ]);
 
   const removeFavorite = (id: string) => {
